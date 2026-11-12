@@ -3,3 +3,22 @@
 
 .universe-grid .films{background:#e0d8cc}
 @media(min-width:761px){.universe-grid .films{grid-column:1/-1;min-height:320px}.universe-grid .films p{max-width:540px}}
+
+.hero {
+  color: #fff;
+  background: linear-gradient(90deg, rgb(12 8 30 / 86%), rgb(12 8 30 / 48%)),
+    #100b25 url("space-background.webp") center / cover no-repeat;
+}
+
+.hero h1 em {
+  color: #e5d8ff;
+}
+
+.hero-bottom p,
+.hero-bottom strong {
+  color: #fff;
+}
+
+.hero .round-link {
+  border-color: #e5d8ff;
+}
